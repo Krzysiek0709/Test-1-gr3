@@ -1,0 +1,61 @@
+import java.util.Random;
+import java.util.Scanner;
+
+
+public class test1 {
+
+//----------------------------------------------------------------------2
+
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        int n = 0;
+//        n = scan.nextInt();
+//        funkcja(n);
+//    }
+//
+//    public static void funkcja(int n) {
+//        Random r = new Random();
+//
+//        int Biggest = 50 - r.nextInt(100);
+//
+//        int tab[] = new int[n - 1];
+//
+//        int ile = 1;
+//
+//        for(int i =1;i < n - 1;i++){
+//            tab[i] = 50 - r.nextInt(100);
+//            if(tab[i] == Biggest)ile++;
+//            if(tab[i] > Biggest){
+//                Biggest=tab[i];
+//                ile=1;
+//            }
+//        }
+//
+//        System.out.print("Największa:"+Biggest+" Wystepuje: "+ile+" ");
+//    }
+
+
+
+
+//----------------------------------------------------------------------3
+//    public static void main(String[] args) {
+//        String str = "x Chcxe mxixec maxlexgo koxtxka";
+//        char c = 'x';
+//        System.out.println(delete(str, c));
+//    }
+//
+//    public static String delete(String str, char c) {
+//        StringBuilder nowy = new StringBuilder();
+//        char[] dString = str.toCharArray();
+//        for (int i = 0; i < dString.length; i++) {
+//            if (dString[i] == c) {
+//
+//            } else {
+//                nowy.append(dString[i]);
+//            }
+//        }
+//        return nowy.toString();
+//    }
+
+
+}
